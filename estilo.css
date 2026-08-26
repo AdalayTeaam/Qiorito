@@ -2314,3 +2314,9 @@ body {
         height: 260svh;
     }
 }
+@media (max-width: 768px) {
+    #videoScroll {
+        transform: scale(1.12);
+        transform-origin: center center;
+    }
+}
